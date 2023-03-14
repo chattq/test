@@ -61,7 +61,11 @@
       <!-- header-control -->
       <div class="header-control">
         <div class="header-control_box">
-          <div class="bar">
+          <div
+            class="bar"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasExample"
+            aria-controls="offcanvasExample">
             <span><i class="fa-solid fa-bars"></i></span>
           </div>
           <div class="box-control">
@@ -145,7 +149,8 @@
               justify-content: space-between;
               align-items: center;
               margin-top: 25px;
-            " class="responsive-title">
+            "
+            class="responsive-title">
             <div class="title-products" style="margin-top: 0">
               <a href="index.html">HOME</a>
               <span>/</span>
@@ -153,7 +158,9 @@
               <span>/</span>
               <a href="#" class="shop">CLOTHING</a>
             </div>
-            <div style="display: flex; align-items: center" class="filter-price">
+            <div
+              style="display: flex; align-items: center"
+              class="filter-price">
               <h6
                 style="
                   font-size: 14px;
@@ -290,7 +297,7 @@
               </ul>
             </div>
             <div class="product-main">
-              <div class="product_card">
+              <a href="./productDetail.html" class="product_card">
                 <div class="product_card_img">
                   <img
                     src="https://uxflatsome.wpenginepowered.com/wp-content/uploads/2013/06/hoodie_4_front-494x593.jpg"
@@ -303,8 +310,8 @@
                   data-bs-target="#exampleModal">
                   <h1>Quick View</h1>
                 </div>
-              </div>
-              <div class="product_card">
+              </a>
+              <a href="./productDetail.html" class="product_card">
                 <div class="product_card_img">
                   <img
                     src="https://uxflatsome.wpenginepowered.com/wp-content/uploads/2013/06/hoodie_4_front-494x593.jpg"
@@ -317,8 +324,8 @@
                   data-bs-target="#exampleModal">
                   <h1>Quick View</h1>
                 </div>
-              </div>
-              <div class="product_card">
+              </a>
+              <a class="product_card">
                 <div class="product_card_img">
                   <img
                     src="https://uxflatsome.wpenginepowered.com/wp-content/uploads/2013/06/hoodie_4_front-494x593.jpg"
@@ -331,8 +338,8 @@
                   data-bs-target="#exampleModal">
                   <h1>Quick View</h1>
                 </div>
-              </div>
-              <div class="product_card">
+              </a>
+              <a href="./productDetail.html" class="product_card">
                 <div class="product_card_img">
                   <img
                     src="https://uxflatsome.wpenginepowered.com/wp-content/uploads/2013/06/hoodie_4_front-494x593.jpg"
@@ -345,8 +352,8 @@
                   data-bs-target="#exampleModal">
                   <h1>Quick View</h1>
                 </div>
-              </div>
-              <div class="product_card">
+              </a>
+              <a href="./productDetail.html" class="product_card">
                 <div class="product_card_img">
                   <img
                     src="https://uxflatsome.wpenginepowered.com/wp-content/uploads/2013/06/hoodie_4_front-494x593.jpg"
@@ -359,8 +366,8 @@
                   data-bs-target="#exampleModal">
                   <h1>Quick View</h1>
                 </div>
-              </div>
-              <div class="product_card">
+              </a>
+              <a href="./productDetail.html" class="product_card">
                 <div class="product_card_img">
                   <img
                     src="https://uxflatsome.wpenginepowered.com/wp-content/uploads/2013/06/hoodie_4_front-494x593.jpg"
@@ -373,8 +380,8 @@
                   data-bs-target="#exampleModal">
                   <h1>Quick View</h1>
                 </div>
-              </div>
-              <div class="product_card">
+              </a>
+              <a href="./productDetail.html" class="product_card">
                 <div class="product_card_img">
                   <img
                     src="https://uxflatsome.wpenginepowered.com/wp-content/uploads/2013/06/hoodie_4_front-494x593.jpg"
@@ -387,7 +394,7 @@
                   data-bs-target="#exampleModal">
                   <h1>Quick View</h1>
                 </div>
-              </div>
+              </a>
             </div>
           </div>
         </div>
@@ -850,6 +857,69 @@
             </div>
           </div>
         </div>
+      </div>
+    </div>
+    <!-- canvas -->
+    <div
+      class="offcanvas offcanvas-start"
+      tabindex="-1"
+      id="offcanvasExample"
+      aria-labelledby="offcanvasExampleLabel">
+      <div class="offcanvas-header" style="display: flex; justify-content: end">
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"></button>
+      </div>
+      <div style="padding: 20px">
+        <div style="display: flex; align-items: center">
+          <input
+            type="text"
+            placeholder="Search..."
+            style="
+              padding: 8px 10px;
+              border-radius: 5px 0 0 5px;
+              border-right: none;
+            " />
+          <div>
+            <span
+              style="
+                background-color: orange;
+                padding: 11px;
+                border-radius: 0 5px 5px 0;
+              "
+              ><i
+                class="fa-solid fa-magnifying-glass icon_search_bar"
+                style="color: white; font-size: 15px"></i
+            ></span>
+          </div>
+        </div>
+        <ul class="product-select">
+          <li><a href="#">DEMOS</a></li>
+          <li><a href="#">FEATURES</a></li>
+          <li class="collapse-select">
+            <a href="clothing.html">SHOP </a>
+            <button class="button_collapse">
+              <i class="fa-solid fa-chevron-down"></i>
+            </button>
+          </li>
+          <li class="collapse-select">
+            <a href="#">PAGES</a>
+            <button class="button_collapse">
+              <i class="fa-solid fa-chevron-down"></i>
+            </button>
+          </li>
+          <li class="collapse-select">
+            <a href="#">BLOG</a>
+          </li>
+          <li>
+            <a href="">ELEMEMTS</a>
+          </li>
+          <li>
+            <a href="">LOGIN</a>
+          </li>
+        </ul>
       </div>
     </div>
     <script

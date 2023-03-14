@@ -19,6 +19,10 @@
       integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
   </head>
   <body>
     <div class="container-box">
@@ -143,216 +147,299 @@
           <p>SUPPORT</p>
         </div>
       </div>
-      <div class="body-products">
+      <div class="body-products detailProduct">
         <div class="products-box">
-          <div class="title-products">
-            <a href="#">HOME</a>
-            <span>/</span>
-            <a href="#" class="shop">SHOP</a>
-          </div>
-          <div class="product-container">
-            <div class="sider-bar">
-              <h2>BROWSE</h2>
-              <ul class="product-select">
-                <li><a href="#">Bags</a></li>
-                <li><a href="#">Booking</a></li>
-                <li class="collapse-select">
-                  <a href="clothing.html"> Clothing </a>
-                  <button class="button_collapse">
-                    <i class="fa-solid fa-chevron-down"></i>
-                  </button>
-                </li>
-                <li class="collapse-select">
-                  <a href="#">Men</a>
-                  <button class="button_collapse">
-                    <i class="fa-solid fa-chevron-down"></i>
-                  </button>
-                </li>
-                <li class="collapse-select">
-                  <a href="#">Music</a>
-                  <button class="button_collapse">
-                    <i class="fa-solid fa-chevron-down"></i>
-                  </button>
-                </li>
-                <li>
-                  <a href="">Posters</a>
-                </li>
-                <li>
-                  <a href="">Shoes</a>
-                </li>
-                <li>
-                  <a href="">Uncategorized</a>
-                </li>
-                <li class="collapse-select">
-                  <a href="#">Women</a>
-                  <button class="button_collapse">
-                    <i class="fa-solid fa-chevron-down"></i>
-                  </button>
-                </li>
-              </ul>
-              <ul class="product-select">
-                <h2 class="filter">FILTER BY</h2>
-                <li class="collapse-select">
-                  <a href="#"> Black </a>
-                  <div class="quantity">(3)</div>
-                </li>
-                <li class="collapse-select">
-                  <a href="#">Blue</a>
-                  <div class="quantity">(3)</div>
-                </li>
-                <li class="collapse-select">
-                  <a href="#">Green</a>
-                  <div class="quantity">(3)</div>
-                </li>
-              </ul>
-              <ul class="product-select">
-                <h2 class="filter">FILTER BY PRICE</h2>
-                <div class="box-filter">
-                  <input
-                    type="range"
-                    min="1"
-                    max="100"
-                    value="50"
-                    class="slider"
-                    id="myRange" />
-                  <div class="infor-price">
-                    <button class="button_filter">FILTER</button>
-                    <div class="price">
-                      Price: <span class="money">$690 - $3.000</span>
-                    </div>
+          <div class="swiper-container" style="display: flex">
+            <div class="swiper-box" style="width: 45%; margin-right: 30px">
+              <div
+                style="
+                  --swiper-navigation-color: #fff;
+                  --swiper-pagination-color: #fff;
+                "
+                class="swiper mySwiper2">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <img
+                      src="https://uxflatsome.wpenginepowered.com/wp-content/uploads/2013/06/hoodie_7_back-510x510.jpg" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img
+                      src="https://uxflatsome.wpenginepowered.com/wp-content/uploads/2013/06/hoodie_1_back-768x768.jpg" />
                   </div>
                 </div>
-              </ul>
-              <ul class="product-select">
-                <h2 class="filter">RECENTLY VIEWED</h2>
-                <div class="cart_product_container">
-                  <div class="cart_product_box">
-                    <div class="cart_product">
-                      <div class="cart_product_img">
-                        <img
-                          src="https://uxflatsome.wpenginepowered.com/wp-content/uploads/2013/06/hoodie_7_front-100x100.jpg"
-                          alt="" />
-                      </div>
-                      <div class="infor_product">
-                        <p class="title">Ship Your Idea</p>
-                        <p class="price_product">$30,00 - $35,00</p>
-                      </div>
-                    </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+              </div>
+              <div thumbsSlider="" class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <img
+                      src="https://uxflatsome.wpenginepowered.com/wp-content/uploads/2013/06/hoodie_7_back-510x510.jpg" />
                   </div>
-                  <div class="cart_product_box">
-                    <div class="cart_product">
-                      <div class="cart_product_img">
-                        <img
-                          src="https://uxflatsome.wpenginepowered.com/wp-content/uploads/2013/06/hoodie_2_front-100x100.jpg"
-                          alt="" />
-                      </div>
-                      <div class="infor_product">
-                        <p class="title">Woo Ninja</p>
-                        <p class="price_product">$35,00</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="cart_product_box1">
-                    <div class="cart_product">
-                      <div class="cart_product_img">
-                        <img
-                          src="https://uxflatsome.wpenginepowered.com/wp-content/uploads/2013/06/hoodie_3_front-100x100.jpg"
-                          alt="" />
-                      </div>
-                      <div class="infor_product">
-                        <p class="title">Patien Ninja</p>
-                        <p class="price_product">$35,00</p>
-                      </div>
-                    </div>
+                  <div class="swiper-slide">
+                    <img
+                      src="https://uxflatsome.wpenginepowered.com/wp-content/uploads/2013/06/hoodie_1_back-768x768.jpg" />
                   </div>
                 </div>
-              </ul>
+              </div>
             </div>
-            <div class="product-main">
-              <div class="product_card">
-                <div class="product_card_img">
-                  <img
-                    src="https://uxflatsome.wpenginepowered.com/wp-content/uploads/2013/06/hoodie_4_front-494x593.jpg"
-                    alt=""
-                    style="width: 100%; height: 100%; object-fit: cover" />
+            <div class="infor-product">
+              <div>
+                <a href="./index.html" class="other">HOME</a>
+                <span class="other">/</span>
+                <a href="#" class="other">SHOP</a>
+                <span class="other">/</span>
+                <a href="./index.html" class="other">CLOTHING</a>
+                <span class="other">/</span>
+                <a href="#" class="other">HOODIES</a>
+                <h1 style="font-size: 30px; margin-top: 12px">
+                  Ship Your Idea
+                </h1>
+                <p>$30,00 - $35,00</p>
+                <p>
+                  Pellentesque habitant morbi tristique senectus et netus et
+                  malesuada fames ac turpis egestas. Vestibulum tortor quam,
+                  feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu
+                  libero sit amet quam egestas semper. Aenean ultricies mi vitae
+                  est. Mauris placerat eleifend leo.
+                </p>
+                <div
+                  style="
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    margin-top: 30px;
+                  ">
+                  <span>color</span>
+                  <select
+                    class="form-select2"
+                    aria-label="Default select example">
+                    <option selected>Open this select menu</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select>
                 </div>
-                <div class="product_infor">
-                  <h1>WOMEN</h1>
-                  <p>18 PRODUCTS</p>
+                <h1
+                  style="
+                    font-size: 18px;
+                    border-top: 1px dashed;
+                    padding: 10px 0;
+                    margin-top: 20px;
+                  ">
+                  $35,00
+                </h1>
+                <div style="display: flex">
+                  <div
+                    style="
+                      display: flex;
+                      align-items: center;
+                      margin-right: 20px;
+                    ">
+                    <div
+                      style="
+                        border: 1px solid;
+                        padding: 5px 7px;
+                        border-right: none;
+                        background: #f9f9f9;
+                      ">
+                      -
+                    </div>
+                    <div style="border: 1px solid; padding: 5px 9px">2</div>
+                    <div
+                      style="
+                        border: 1px solid;
+                        padding: 5px 7px;
+                        border-left: none;
+                        background: #f9f9f9;
+                      ">
+                      +
+                    </div>
+                  </div>
+                  <span
+                    style="
+                      padding: 6px 14px;
+                      background-color: #d26e4b;
+                      color: #fff;
+                      border-radius: 5px;
+                      font-weight: 500;
+                    "
+                    >ADD TO CART</span
+                  >
+                </div>
+                <div
+                  style="
+                    border-top: 1px dashed;
+                    margin-top: 30px;
+                    padding: 2px 0;
+                  ">
+                  Sku: N/A
+                </div>
+                <div
+                  style="
+                    border-top: 1px dashed;
+                    margin-top: 5px;
+                    padding: 2px 0;
+                  ">
+                  Categories: Clothing, Hoodies
+                </div>
+                <div class="connect-icon">
+                  <a href="#"
+                    ><i class="fa-brands fa-facebook-f detail_icon"></i
+                  ></a>
+                  <a href="#"
+                    ><i class="fa-brands fa-instagram detail_icon"></i
+                  ></a>
+                  <a href="#"
+                    ><i class="fa-brands fa-twitter detail_icon"></i
+                  ></a>
+                  <a href="#"
+                    ><i class="fa-regular fa-envelope detail_icon"></i
+                  ></a>
+                  <a href="#"
+                    ><i class="fa-brands fa-pinterest-p detail_icon"></i
+                  ></a>
                 </div>
               </div>
-              <div class="product_card">
-                <div class="product_card_img">
-                  <img
-                    src="https://uxflatsome.wpenginepowered.com/wp-content/uploads/2013/08/589864-5295_1-494x593.jpeg"
-                    alt=""
-                    style="width: 100%; height: 100%; object-fit: cover" />
+            </div>
+            <div class="arrow" style="width: 300px; margin-left: 100px">
+              <span
+                style="border-radius: 50%; padding: 2px 8px; border: 1px solid"
+                ><i class="fa-solid fa-chevron-left"></i
+              ></span>
+              <span
+                style="border-radius: 50%; padding: 2px 8px; border: 1px solid"
+                ><i class="fa-solid fa-chevron-right"></i
+              ></span>
+            </div>
+          </div>
+          <div
+            style="
+              margin-top: 60px;
+              border-top: 1px solid;
+              border-bottom: 1px solid;
+              padding-bottom: 30px;
+            ">
+            <div style="display: flex; padding: 10px 0">
+              <div
+                style="margin-right: 20px; font-size: 13px; font-weight: 600"
+                class="active_review">
+                DESCRIPTION
+              </div>
+              <div style="font-size: 13px; font-weight: 600">REVIEWS (0)</div>
+            </div>
+            <p style="margin-top: 10px">
+              Pellentesque habitant morbi tristique senectus et netus et
+              malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat
+              vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit
+              amet quam egestas semper. Aenean ultricies mi vitae est. Mauris
+              placerat eleifend leo.
+            </p>
+          </div>
+          <div>
+            <h1 style="font-size: 20px; margin-top: 25px; margin-bottom: 25px">
+              RELATED PRODUCTS
+            </h1>
+            <div class="swiper mySwiper3">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide swiperSlide3">
+                  <div href="./productDetail.html" class="product_card">
+                    <div class="product_card_img">
+                      <img
+                        src="https://uxflatsome.wpenginepowered.com/wp-content/uploads/2013/06/hoodie_4_front-494x593.jpg"
+                        alt=""
+                        style="width: 100%; height: 100%; object-fit: cover" />
+                    </div>
+                    <div
+                      class="product_infor_button"
+                      data-bs-toggle="modal"
+                      data-bs-target="#exampleModal">
+                      <h1 style="width: 100%">Quick View</h1>
+                    </div>
+                  </div>
                 </div>
-                <div class="product_infor">
-                  <h1>BOOKING</h1>
-                  <p>6 PRODUCTS</p>
+                <div class="swiper-slide swiperSlide3">
+                  <div href="./productDetail.html" class="product_card">
+                    <div class="product_card_img">
+                      <img
+                        src="https://uxflatsome.wpenginepowered.com/wp-content/uploads/2013/06/hoodie_4_front-494x593.jpg"
+                        alt=""
+                        style="width: 100%; height: 100%; object-fit: cover" />
+                    </div>
+                    <div
+                      class="product_infor_button"
+                      data-bs-toggle="modal"
+                      data-bs-target="#exampleModal">
+                      <h1>Quick View</h1>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide swiperSlide3">
+                  <div href="./productDetail.html" class="product_card">
+                    <div class="product_card_img">
+                      <img
+                        src="https://uxflatsome.wpenginepowered.com/wp-content/uploads/2013/06/hoodie_4_front-494x593.jpg"
+                        alt=""
+                        style="width: 100%; height: 100%; object-fit: cover" />
+                    </div>
+                    <div
+                      class="product_infor_button"
+                      data-bs-toggle="modal"
+                      data-bs-target="#exampleModal">
+                      <h1>Quick View</h1>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide swiperSlide3">
+                  <div href="./productDetail.html" class="product_card">
+                    <div class="product_card_img">
+                      <img
+                        src="https://uxflatsome.wpenginepowered.com/wp-content/uploads/2013/06/hoodie_4_front-494x593.jpg"
+                        alt=""
+                        style="width: 100%; height: 100%; object-fit: cover" />
+                    </div>
+                    <div
+                      class="product_infor_button"
+                      data-bs-toggle="modal"
+                      data-bs-target="#exampleModal">
+                      <h1>Quick View</h1>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide swiperSlide3">
+                  <div href="./productDetail.html" class="product_card">
+                    <div class="product_card_img">
+                      <img
+                        src="https://uxflatsome.wpenginepowered.com/wp-content/uploads/2013/06/hoodie_4_front-494x593.jpg"
+                        alt=""
+                        style="width: 100%; height: 100%; object-fit: cover" />
+                    </div>
+                    <div
+                      class="product_infor_button"
+                      data-bs-toggle="modal"
+                      data-bs-target="#exampleModal">
+                      <h1>Quick View</h1>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide swiperSlide3">
+                  <div href="./productDetail.html" class="product_card">
+                    <div class="product_card_img">
+                      <img
+                        src="https://uxflatsome.wpenginepowered.com/wp-content/uploads/2013/06/hoodie_4_front-494x593.jpg"
+                        alt=""
+                        style="width: 100%; height: 100%; object-fit: cover" />
+                    </div>
+                    <div
+                      class="product_infor_button"
+                      data-bs-toggle="modal"
+                      data-bs-target="#exampleModal">
+                      <h1>Quick View</h1>
+                    </div>
+                  </div>
                 </div>
               </div>
-              <div class="product_card">
-                <div class="product_card_img">
-                  <img
-                    src="https://uxflatsome.wpenginepowered.com/wp-content/uploads/2016/07/booking-494x593.jpg"
-                    alt=""
-                    style="width: 100%; height: 100%; object-fit: cover" />
-                </div>
-                <div class="product_infor">
-                  <h1>MEN</h1>
-                  <p>9 PRODUCTS</p>
-                </div>
-              </div>
-              <div class="product_card">
-                <div class="product_card_img">
-                  <img
-                    src="https://uxflatsome.wpenginepowered.com/wp-content/uploads/2013/08/602779-0083_1-494x593.jpeg"
-                    alt=""
-                    style="width: 100%; height: 100%; object-fit: cover" />
-                </div>
-                <div class="product_infor">
-                  <h1>BAGS</h1>
-                  <p>6 PRODUCTS</p>
-                </div>
-              </div>
-              <div class="product_card">
-                <div class="product_card_img">
-                  <img
-                    src="https://uxflatsome.wpenginepowered.com/wp-content/uploads/2013/06/cd_5_angle-494x593.jpg"
-                    alt=""
-                    style="width: 100%; height: 100%; object-fit: cover" />
-                </div>
-                <div class="product_infor">
-                  <h1>MUSIC</h1>
-                  <p>6 PRODUCTS</p>
-                </div>
-              </div>
-              <div class="product_card">
-                <div class="product_card_img">
-                  <img
-                    src="https://uxflatsome.wpenginepowered.com/wp-content/uploads/2013/06/hoodie_4_front-494x593.jpg"
-                    alt=""
-                    style="width: 100%; height: 100%; object-fit: cover" />
-                </div>
-                <div class="product_infor">
-                  <h1>POSTERS</h1>
-                  <p>5 PRODUCTS</p>
-                </div>
-              </div>
-              <div class="product_card">
-                <div class="product_card_img">
-                  <img
-                    src="https://uxflatsome.wpenginepowered.com/wp-content/uploads/2013/06/hoodie_4_front-494x593.jpg"
-                    alt=""
-                    style="width: 100%; height: 100%; object-fit: cover" />
-                </div>
-                <div class="product_infor">
-                  <h1>SHOES</h1>
-                  <p>7 PRODUCTS</p>
-                </div>
-              </div>
+              <div class="swiper-pagination"></div>
             </div>
           </div>
         </div>
@@ -735,6 +822,86 @@
           </div>
         </div>
       </div>
+      <!-- Modal -->
+      <div
+        class="modal fade"
+        id="exampleModal"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="card" style="max-width: 540px">
+              <div class="row g-0">
+                <div>
+                  <div id="carouselExampleIndicators" class="carousel slide">
+                    <div class="carousel-indicators">
+                      <button
+                        type="button"
+                        data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide-to="0"
+                        class="active"
+                        aria-current="true"
+                        aria-label="Slide 1"></button>
+                      <button
+                        type="button"
+                        data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img
+                          src="https://flatsome3.uxthemes.com/wp-content/uploads/2013/06/T_7_back-768x768.jpg"
+                          class="d-block w-100"
+                          alt="..." />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          src="https://flatsome3.uxthemes.com/wp-content/uploads/2013/06/T_7_front-768x768.jpg"
+                          class="d-block w-100"
+                          alt="..." />
+                      </div>
+                    </div>
+                    <button
+                      class="carousel-control-prev"
+                      type="button"
+                      data-bs-target="#carouselExampleIndicators"
+                      data-bs-slide="prev">
+                      <span
+                        class="carousel-control-prev-icon"
+                        aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button
+                      class="carousel-control-next"
+                      type="button"
+                      data-bs-target="#carouselExampleIndicators"
+                      data-bs-slide="next">
+                      <span
+                        class="carousel-control-next-icon"
+                        aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                </div>
+                <div>
+                  <div class="card-body">
+                    <h5 class="card-title">Happy Ninja</h5>
+                    <p>$18,000</p>
+                    <p class="card-text">
+                      This is a wider card with supporting text below as a
+                      natural lead-in to additional content. This content is a
+                      little bit longer.
+                    </p>
+                    <span class="card-button"> ADD TO CART </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       <!-- canvas -->
       <div
         class="offcanvas offcanvas-start"
@@ -805,5 +972,32 @@
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
       crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        loop: true,
+        spaceBetween: 10,
+        slidesPerView: 4,
+        freeMode: true,
+        watchSlidesProgress: true,
+      });
+      var swiper2 = new Swiper(".mySwiper2", {
+        loop: true,
+        spaceBetween: 10,
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        thumbs: {
+          swiper: swiper,
+        },
+      });
+      var swiper = new Swiper(".mySwiper3", {
+        slidesPerView: 4,
+        spaceBetween: 30,
+      });
+    </script>
   </body>
 </html>
